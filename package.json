@@ -1,0 +1,32 @@
+{
+  "name": "fs-yelp",
+  "version": "1.0.0",
+  "description": "fullstack-react yelp clone tutorial",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/hjs-dev-server",
+    "foo": "echo \"TESTING\" && npm run start && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kalmes0",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "cssnano": "^3.7.1",
+    "dotenv": "^2.0.0",
+    "file-loader": "^0.9.0",
+    "hjs-webpack": "^8.3.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2"
+  }
+}
