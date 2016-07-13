@@ -4,6 +4,9 @@
 require('babel-register');
 
 const NODE_ENV = process.env.NODE_ENV;
+
+console.log('Node Env?', NODE_ENV);
+
 const isDev = (NODE_ENV === 'development' || (process.argv[1] || '').indexOf('hjs-dev-server') > -1);
 const isTest = (NODE_ENV === 'test' || (process.argv[1] || '').indexOf('karma') > -1);
 
@@ -133,7 +136,9 @@ if (isTest) {
     const idx = [
       'DedupePlugin',
       'UglifyJsPlugin'
-    ].indexOf(fName[1]);
+    ].indexOf(
+      fName[1]
+    );
 
     //* Remove if it is
     return idx < 0;

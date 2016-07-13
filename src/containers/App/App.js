@@ -1,20 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { PropTypes } from 'react';
+import { Router } from 'react-router';
 
 //* Primary styles CSS Module
 import styles from './styles.module.css';
 
-const App = React.createClass({
-  render: function() {
+//* Font-Awesome
+//* #TODO: can this be broken down any?
+import 'font-awesome/css/font-awesome.css';
+
+class App extends React.Component {
+
+  static propTypes = {
+    history : PropTypes.object.isRequired,
+    routes : PropTypes.object.isRequired
+  }
+
+  render() {
     return (
-      <div className={styles.wrapper}>
-        <h1>
-          <i className="fa fa-star"></i>
-          Environment: {__NODE_ENV__}
-        </h1>
+      <div>
+        <Router history={ this.props.history } routes={ this.props.routes } />
       </div>
     )
   }
-});
 
-module.exports = App;
+};
+
+export default App;

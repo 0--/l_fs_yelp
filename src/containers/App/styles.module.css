@@ -1,4 +1,4 @@
 /* styles.module.css -> should be processed as modular CSS via webpack */
 .wrapper {
-  background: #99A;
+  display: flex;
 }

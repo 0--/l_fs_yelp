@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"n",
+				"NODE_ENV"
+			],
+			[
+				"de",
+				"debugTool"
+			],
+			[
+				"disp",
+				"displayNameOfNode"
+			],
+			[
+				"wep",
+				"webpackConfig"
+			],
+			[
+				"web",
+				"webpack"
+			],
+			[
+				"mod",
+				"modules"
+			],
+			[
+				"en",
+				"envVariables"
+			],
+			[
+				"hsj",
+				"hjs-dev-server"
+			],
+			[
 				"rout",
 				"RouterLink	alias"
 			],
@@ -344,10 +376,6 @@
 				"player-progress"
 			],
 			[
-				"web",
-				"webkit-appearance"
-			],
-			[
 				"bak",
 				"background-image"
 			],
@@ -486,39 +514,91 @@
 			[
 				"cen",
 				"centered"
-			],
-			[
-				"a",
-				"absolute"
-			],
-			[
-				"inlin",
-				"inline-block"
-			],
-			[
-				"comm",
-				"commerce-list"
-			],
-			[
-				"bor",
-				"border-radius"
-			],
-			[
-				"cap",
-				"captcha-img"
-			],
-			[
-				"bt",
-				"btn-default"
-			],
-			[
-				"cent",
-				"centered"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "tests.webpack.js",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/containers/App/App.spec.js",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app.js",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/views/Main/Container.js",
+			"settings":
+			{
+				"buffer_size": 1800,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Header/Header.spec.js",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/utils/googleApiHelpers.js",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/routes.js",
+			"settings":
+			{
+				"buffer_size": 774,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/containers/App/App.js",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 4467,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -588,10 +668,51 @@
 	},
 	"expanded_folders":
 	[
-		"/C/dev/learning/react/fs-yelp/l_fs_yelp"
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/chai-enzyme/src",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/src",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/google-maps-react/dist",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/google-maps-react/dist/components",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/google-maps-react/resources/readme",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/karma/bin",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/phantomjs-prebuilt/bin",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/dist",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/lib",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/components",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/components/Header",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/views/Main"
 	],
 	"file_history":
 	[
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/app.css",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/views/Main/routes.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/.env",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/views/MainContainer.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/karma.conf.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/lib/ReactInstrumentation.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/containers/App/styles.module.css",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/containers/App/App.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/phantomjs-prebuilt/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/containers/App/App.spec.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/.babelrc",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/webpack.config.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build/ShallowWrapper.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build/react-compat.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/dist/react-with-addons.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/lib/ReactTestUtils.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/react/lib/ReactDebugTool.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/src/ReactWrapperComponent.jsx",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build/render.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build/Utils.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/app.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/build/shallow.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/node_modules/enzyme/src/shallow.js",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/package.json",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/src/styles.module.css",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/foo.txt",
+		"/C/dev/learning/react/fs-yelp/l_fs_yelp/.gitignore",
 		"/C/dev/sketch/angular2-tour-of-heroes/app/app.component.ts",
 		"/C/dev/sketch/angular2-tour-of-heroes/app/hero-dashboard.component.ts",
 		"/C/dev/sketch/angular2-tour-of-heroes/app/hero-list.component.ts",
@@ -658,6 +779,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"<open folders>",
 			"",
 			"<open folders>",
 			"C:\\Users\\pkalmes\\Work\\Client\\Shazam\\SVN\\trunk\\AmericanEagleCampaign\\FrontEnd\\FrontEnd\\Styles\\sass\\",
@@ -669,9 +791,41 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Map",
+			"onReady",
+			"_ENV = ",
+			"process.env.NODE_ENV =",
+			"ReactInstrumentation",
+			"TestUtils = ",
+			"ReactShallowRenderer",
+			"createRenderer",
+			"TestUtils",
+			"TestUtils = ",
+			"createShallowRendere",
+			"createShallowRenderer",
+			"renderer",
+			"withSetStateAllowed",
+			"ShallowWrapper",
+			"displayName",
+			"ShallowWrapper",
+			"'default'",
+			"displayName",
+			"ShallowComponentWrapper",
+			"ShallowComponent",
+			"onSetDisplayName",
+			"spec",
+			"\\n\\n\\n",
+			"environmentVarsLoader",
+			"config",
+			"cssmoduleLoader",
+			"newloader",
+			"dotenvConfig",
+			"hjsConfig",
+			"getConfig",
+			"dotEnvVars",
 			"lite",
 			"getHeroes",
 			"resolved",
@@ -767,39 +921,7 @@
 			"songTitle",
 			"artistName",
 			"container_audioPlayer",
-			"../images",
-			"Button",
-			"audioPlayerControlList_Control",
-			"jpeg",
-			"./images",
-			"container",
-			"pictureContainer",
-			"opacity",
-			" data-media",
-			"data-src",
-			" data-preload=\"desktop\" ",
-			"<span ",
-			"></span",
-			"bank",
-			"imagebank",
-			"url: flash",
-			"access_",
-			"portfolio.lcl",
-			"portfolio.lcl:90",
-			" ? http : ",
-			" ? https : ",
-			".png",
-			" : https ? ",
-			"')",
-			"url('",
-			"-dialog",
-			"mamba-artist-name",
-			"h2",
-			"-previous",
-			"-dialog",
-			"is-failed",
-			".player",
-			"youtube"
+			"../images"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -807,6 +929,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\n\\n",
+			"\\n",
+			"envVarsLoader",
+			"hjsConfig",
+			"cssModuleLoader",
+			"cssmoduleLoader",
+			"hjs",
+			"hjsConfig",
+			"dotenvConfig",
 			"getHero",
 			"success",
 			"waiting",
@@ -933,14 +1064,300 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "tests.webpack.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/containers/App/App.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/views/Main/Container.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1285,
+								1285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/Header/Header.spec.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								361,
+								361
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/utils/googleApiHelpers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/containers/App/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								565,
+								565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/babel-sublime/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1027,7 +1444,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 282.0,
+	"side_bar_width": 530.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
