@@ -15,10 +15,16 @@ class App extends React.Component {
     routes : PropTypes.object.isRequired
   }
 
+  get content() {
+    return (
+        <Router history={ this.props.history } routes={ this.props.routes } />
+    );
+  }
+
   render() {
     return (
-      <div>
-        <Router history={ this.props.history } routes={ this.props.routes } />
+      <div style={ {height: '100%' } }>
+        { this.content }
       </div>
     )
   }

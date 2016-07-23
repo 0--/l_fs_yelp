@@ -30,6 +30,7 @@
     "enzyme": "^2.4.1",
     "expect": "^1.20.2",
     "file-loader": "^0.9.0",
+    "google-maps-react": "^1.0.16",
     "hjs-webpack": "^8.3.0",
     "jasmine-core": "^2.4.1",
     "json-loader": "^0.5.4",

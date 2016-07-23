@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { browserHistory, Router, Route } from 'react-router';
 
-//* Make Font Awesome globally accessibl
+//* Make Font Awesome globally accessible
 import 'font-awesome/css/font-awesome.css';
 
 //* Why is it necessary/desirable to import this here?
